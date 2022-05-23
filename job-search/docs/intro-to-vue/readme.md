@@ -225,3 +225,41 @@ import App from "./App.vue";
 
 createApp(App).mount("#app");
 ```
+
+### @ symbol at the top of the directory
+
+let's use the @ symbol import the `App` component
+
+```js
+import { createApp } from "vue";
+import App from "@/App.vue";
+
+createApp(App).mount("#app");
+```
+
+### the parts of a vue file
+
+each file consists of three parts
+
+1. the template
+2. the script
+3. the style
+
+### more on components
+
+advantages of components
+
+- reusable
+- like a function
+
+```vue
+<template>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <HelloWorld msg="I am learning Vue" />
+  <HelloWorld msg="reusing the components" />
+</template>
+```
+
+### install vue-dev tools
+
+install vue dev tools extension
