@@ -53,3 +53,17 @@ let's add the scoped to the App component
 #### [vue css documentation](https://vuejs.org/api/sfc-css-features.html#scoped-css)
 
 ### A Little Housekeeping
+
+let's remove the unnecessary files from our app
+
+```vue
+<template>
+  <h1>Hello vue</h1>
+</template>
+
+<script>
+export default {
+  name: "App",
+};
+</script>
+```
