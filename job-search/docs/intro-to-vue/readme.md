@@ -161,3 +161,67 @@ module.exports = {
   ],
 };
 ```
+
+### project structure
+
+![](../intro-to-vue/assets/img/1.png)
+
+### how the view app is mounted
+
+let's clear the `main.js` file.
+
+let's import `createApp` from `vue`
+
+```js
+import { createApp } from "vue";
+```
+
+we need a root component for the createApp.
+
+let's import the app component
+
+```js
+import App from "./App.vue";
+```
+
+now we have create a vue app let's mount this to our `index.html`.
+
+```js
+createApp(App).mount("#app");
+```
+
+let's see the final output code
+`index.html`
+
+```html
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
+```
+
+`main.js`
+
+```js
+import { createApp } from "vue";
+import App from "./App.vue";
+
+createApp(App).mount("#app");
+```
