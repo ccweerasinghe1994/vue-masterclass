@@ -53,6 +53,27 @@ export default {
 
 ### Different Ways to Render a Vue Component
 
+same out put as before
+
+```vue
+<template>
+  <MainNav />
+  <MainNav></MainNav>
+  <main-nav></main-nav>
+  <main-nav />
+</template>
+
+<script>
+import MainNav from "@/components/MainNav.vue";
+export default {
+  name: "App",
+  components: {
+    MainNav,
+  },
+};
+</script>
+```
+
 ### Update Tailwind Styles
 
 ### CSS Styling the MainNav Component
