@@ -199,3 +199,6 @@ export default {
 };
 </script>
 ```
+
+output
+![](assets/images/2.png)
