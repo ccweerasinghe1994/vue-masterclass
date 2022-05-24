@@ -1,7 +1,4 @@
 <template>
-  <MainNav />
-  <MainNav></MainNav>
-  <main-nav></main-nav>
   <main-nav />
 </template>
 
