@@ -4,7 +4,8 @@
   - [Introduction](#introduction)
   - [Intro to Vue](#intro-to-vue)
   - [Intro to CSS in Vue](#intro-to-css-in-vue)
-  - [Intro to Tailwind CSS](#intro-to-tailwind-css)
+  - [Intro to tailwind css](#intro-to-tailwind-css)
+  - [Rendering data in the view](#rendering-data-in-the-view)
   - [Project setup](#project-setup)
     - [Compiles and hot-reloads for development](#compiles-and-hot-reloads-for-development)
     - [Compiles and minifies for production](#compiles-and-minifies-for-production)
@@ -16,7 +17,9 @@
 
 ## [Intro to CSS in Vue](docs/2.Intro_to_CSS_in_Vue/readme.md)
 
-## Intro to Tailwind CSS
+## [Intro to tailwind css](docs/3.Intro_to_Tailwind_CSS/readme.md)
+
+## [Rendering data in the view](docs/4.Rendering_Data_to_View/readme.md)
 
 ## Project setup
 
