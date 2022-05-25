@@ -6,6 +6,7 @@
   - [Intro to CSS in Vue](#intro-to-css-in-vue)
   - [Intro to tailwind css](#intro-to-tailwind-css)
   - [Rendering data in the view](#rendering-data-in-the-view)
+  - [Intro to Jest](#intro-to-jest)
   - [Project setup](#project-setup)
     - [Compiles and hot-reloads for development](#compiles-and-hot-reloads-for-development)
     - [Compiles and minifies for production](#compiles-and-minifies-for-production)
@@ -20,6 +21,8 @@
 ## [Intro to tailwind css](docs/3.Intro_to_Tailwind_CSS/readme.md)
 
 ## [Rendering data in the view](docs/4.Rendering_Data_to_View/readme.md)
+
+## [Intro to Jest](docs/6.Intro_to_Jest/readme.md)
 
 ## Project setup
 
